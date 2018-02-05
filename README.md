@@ -2,7 +2,7 @@ ezttf
 =====
 
 
-This is work in progress ttf rasterization library written in rust. So far it can do basic some
+This is work in progress ttf rasterization library written in rust. So far it can do some
 basic rasterization but still lacks a lot of functionality. Here's an example of its output when
 rasterizing U+210B:
 
