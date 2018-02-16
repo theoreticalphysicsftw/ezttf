@@ -538,7 +538,10 @@ impl FontData {
         {
             search_offset += t4.range_shift as u32;
         }
-
+        
+        // 
+        search_offset -=2;
+        
         for _ in 0..t4.entry_selector {
             t4.search_range /= 2;
             let end_codepoint: u16 = read_u16_be(
@@ -616,7 +619,7 @@ impl FontData {
             unused: u32,
             group_count: u32,
         };
-
+        
         #[repr(C)]
         struct Group {
             start_codepoint: u32,

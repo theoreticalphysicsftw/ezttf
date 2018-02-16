@@ -495,7 +495,7 @@ fn process_active_edge(
 	// vertical center won't change the unsigned area.
 	
 	let mut dxdy = edge.dxdy;
-	let mut sign = edge.direction;
+	let sign = edge.direction;
 	
 	if high_point.0 > low_point.0 {
 		::std::mem::swap(&mut (low_point.0), &mut (high_point.0));

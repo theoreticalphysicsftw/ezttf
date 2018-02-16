@@ -1,0 +1,10 @@
+[package]
+name = "ezttf"
+version = "0.1.0"
+authors = ["Mihail Mladenov"]
+
+[dependencies]
+
+
+[dev-dependencies]
+png = "*"
